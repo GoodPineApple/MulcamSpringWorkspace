@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  요청의 종류에 따라 컨트롤러 매핑정보를 담는  -->
+<!--  HandlerMapping객체  -->
+	<bean id="handlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="hello.do">helloController</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
+<!-- 	요청을 실질적으로 받아 처리하는 컨트롤러 객체 -->
+	<bean id="helloController" 
+		class="controller.HelloController"/>
+	
+	
+<!-- 	컨트롤러가 요청을 처리한 결과데이터를 보여줄 뷰가 -->
+<!-- 	있는지 없는지 관리하는 ViewResolver -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/yangyu/"/>
+		<property name="suffix" value=".jsp"/>
+	</bean>
+</beans>

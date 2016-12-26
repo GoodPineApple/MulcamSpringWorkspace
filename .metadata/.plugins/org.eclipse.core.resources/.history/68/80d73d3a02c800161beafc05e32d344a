@@ -1,0 +1,13 @@
+package vo;
+
+import java.util.List;
+
+public class ArticlePage {
+	private List<Article> articleList;
+	private int startPage;
+	private int endPage;
+	private int currentPage;
+	private int totalPage;
+	
+	
+}

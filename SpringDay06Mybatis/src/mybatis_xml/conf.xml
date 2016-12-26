@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd"> 
+<configuration>
+<!-- 마이바티스 설정파일(스프링 연동후 사라짐) -->
+	<typeAliases>
+		<typeAlias type="vo.Book" alias="Book"/>
+	</typeAliases>
+	
+	<environments default="aaa">
+		<environment id="aaa">
+			<transactionManager type="JDBC"/>
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
+				<property name="url" value="jdbc:mysql://localhost:3306/spring"/>
+				<property name="username" value="root"/>
+				<property name="password" value="sds902"/>
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="mybatis_xml/book-mapper.xml"/>
+	</mappers>
+	
+</configuration>

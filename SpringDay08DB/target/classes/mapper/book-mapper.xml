@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.BookMapper">
+<!-- SQL 명령어 작성 파일 -->
+	<insert id="insertBook" parameterType="Book" 
+		useGeneratedKeys="true" keyColumn="book_num" keyProperty="b_book_num">
+		INSERT INTO BOOK(TITLE,WRITER,PUBLISHER,PRICE)
+		VALUES(#{b_title},#{b_writer},#{b_publisher},#{b_price})
+	</insert>
+		
+	<delete id="deleteBook" parameterType="Map">
+		DELETE FROM BOOK WHERE BOOK_NUM>=#{startRow} AND #{endRow}>=BOOK_NUM
+	</delete>
+		
+	<select id="selectBook" parameterType="Integer" resultMap="bookList">
+		SELECT * FROM BOOK WHERE BOOK_NUM=#{book_num}
+	</select>
+
+	<select id="selectBookList" resultMap="bookList">
+		SELECT * FROM BOOK 
+	</select>
+	
+	<resultMap type="Book" id="bookList">
+		<result column="book_num" property="b_book_num"/>
+		<result column="writer" property="b_writer"/>
+		<result column="publisher" property="b_publisher"/>
+		<result column="price" property="b_price"/>
+		<result column="title" property="b_title"/>
+	</resultMap>
+	
+<!-- 	<update id=""></update> -->
+	
+<!-- 	<delete id=""></delete> -->
+</mapper>

@@ -1,0 +1,26 @@
+package bankAccount;
+
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context = new 
+				ClassPathXmlApplicationContext("bankAccount/applicationContext");
+		
+		AccountService service = context.getBean("service", AccountService.class);
+		
+		Scanner scan = new Scanner(System.in);
+		
+		boolean isExit = true;
+		while(isExit){
+			System.out.println("TM Bank에 오신걸 환영합니다.");
+			System.out.println("원하는 동작을 선택해 주십시오.");
+			System.out.println("1.계좌생성 2.입금 3.출금 4.송금");
+			System.out.println("5.입금내역조회 6.출금내역조회 7.계좌탈퇴");
+			
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package service;
+
+import dao.MemberDao;
+
+public class MemberService {
+	private MemberDao dao;
+	
+	public MemberService(MemberDao dao){
+		this.dao = dao;
+	}
+}

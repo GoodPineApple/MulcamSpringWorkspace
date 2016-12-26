@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ArticleMapper">
+	<insert id="insert" parameterType="Article">
+		INSERT INTO ARTICLE(ARTICLE_NUM,CREATE_DATE,HITS,WRITER,PW,TITLE,CT,GP,STEP) 
+		VALUES(ARTICLE_SEQ.NEXTVAL,SYSDATE,0,#{writer},#{pw},#{title},#{ct},ARTICLE_SEQ.NEXTVAL,1)
+	</insert>
+	
+	<insert id="insertReply" parameterType="Article">
+		INSERT INTO ARTICLE(ARTICLE_NUM,CREATE_DATE,HITS,WRITER,PW,TITLE,CT,GP,STEP) 
+		VALUES(ARTICLE_SEQ.NEXTVAL,SYSDATE,0,#{writer},#{pw},#{title},#{ct},#{gp},#{step})
+	</insert>
+	
+	<update id="update" parameterType="Article">
+		UPDATE ARTICLE SET WRITER=#{writer},PW=#{pw},TITLE=#{title},CT=#{ct} 
+		WHERE ARTICLE_NUM=#{articleNum}
+	</update>
+	
+	<update id="updateHits" parameterType="Integer">
+		UPDATE ARTICLE SET HITS=HITS+1 WHERE ARTICLE_NUM=#{articleNum}
+	</update>
+	
+	<update id="updateStep" parameterType="Article">
+		UPDATE ARTICLE SET STEP=STEP+1 WHERE GP=#{gp} AND ARTICLE_NUM>#{articleNum}
+	</update>
+	
+	<delete id="delete" parameterType="Integer">
+		DELETE FROM ARTICLE WHERE ARTICLE_NUM=#{articleNum}
+	</delete>
+	
+	<select id="select" parameterType="Integer" resultMap="articleMap">
+		SELECT * FROM ARTICLE WHERE ARTICLE_NUM=#{articleNum} 
+	</select>
+	
+	<select id="selectList" resultMap="articleMap">
+		SELECT * FROM ARTICLE ORDER BY GP DESC, STEP ASC
+	</select>
+	
+	<select id="selectCount" resultType="Integer">
+		SELECT COUNT(*) FROM ARTICLE
+	</select>
+	
+	<select id="selectListPerCount" parameterType="Integer" resultMap="articleMap">
+		SELECT * FROM ARTICLE ORDER BY GP DESC, STEP ASC;
+	</select>
+	
+	
+	<resultMap type="Article" id="articleMap">
+		<result column="article_num" property="articleNum"/>
+		<result column="create_date" property="createDate"/>
+		<result column="hits" property="hits"/>
+		<result column="writer" property="writer"/>
+		<result column="pw" property="pw"/>
+		<result column="title" property="title"/>
+		<result column="ct" property="ct"/>
+		<result column="gp" property="gp"/>
+		<result column="step" property="step"/>
+	</resultMap>
+</mapper>

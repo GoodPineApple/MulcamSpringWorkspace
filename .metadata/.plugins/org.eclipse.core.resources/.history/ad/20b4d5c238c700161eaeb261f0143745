@@ -1,0 +1,5 @@
+package mapper;
+
+public interface BookMapper {
+	public int insertBook(Book book);
+}

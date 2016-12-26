@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dddd" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/spring"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="sds902"></property>
+	</bean>
+	
+	<bean id="named" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+		<constructor-arg name="dataSource" ref="dddd"></constructor-arg>
+	</bean>
+
+	<bean id="dao" class="test01_named.BookDaoNamed">
+		<property name="jdbcTemplate" ref="named"></property>
+	</bean>
+</beans>

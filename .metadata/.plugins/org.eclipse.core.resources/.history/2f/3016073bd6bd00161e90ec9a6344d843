@@ -1,0 +1,50 @@
+package bankAccount;
+
+import java.util.Scanner;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import bankAccount.vo.AccountVO;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context = new 
+				ClassPathXmlApplicationContext("bankAccount/applicationContext.xml");
+		
+		AccountService service = context.getBean("service", AccountService.class);
+		
+		Scanner scan = new Scanner(System.in);
+		
+		boolean isExit = true;
+		int choice = 9;
+		while(isExit){
+			System.out.println("TM Bank에 오신걸 환영합니다.");
+			System.out.println("원하는 동작을 선택해 주십시오.");
+			System.out.println("1.계좌생성 2.입금 3.출금 4.송금");
+			System.out.println("5.입금내역조회 6.출금내역조회 7.계좌탈퇴");
+			System.out.println("0.종료");
+			choice = scan.nextInt();
+			if(choice==1) {
+				System.out.println("계좌생성을 진행합니다.");
+				System.out.println("이름을 입력하십시오.");
+				String name = scan.nextLine();
+				System.out.println("최초로 입금할 액수를 입력하십시오");
+				int deposit = scan.nextInt();
+				System.out.println("계좌생성합니다.");
+				int createAccountResult = service.createAccount(name, deposit);
+				if(createAccountResult == 0) {
+					System.out.println("계좌 생성 오류입니다. 다시 시도하십시오.");
+					isExit = false;
+				} else if(createAccountResult == 1) {
+					AccountVO firstProduct = service.firstCreate();
+					System.out.println("생성된 계좌의 정보입니다.");
+					System.out.println("이름:"+firstProduct.getName());
+					System.out.println("계좌번호:"+firstProduct.getAccountNum());
+					System.out.println("계좌생성일:"+firstProduct.getCreateDay());
+					System.out.println("예금액:"+firstProduct.getDeposit());
+				}
+			}
+		}
+	}
+}

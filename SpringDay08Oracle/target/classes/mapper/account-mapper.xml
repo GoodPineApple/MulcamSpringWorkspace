@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.AccountMapper">
+	<insert id="insert" parameterType="Account">
+<!-- 		INSERT INTO ACCOUNT(NAME,ACCOUNT_NUM,CREATE_DATE,BALANCE,PASSWORD) -->
+<!-- 		VALUES(#{name},#{accountName},SYSDATE,#{balance},#{password}) -->
+		INSERT INTO ACCOUNT(NAME,ACCOUNT_NUM,CREATE_DATE,BALANCE,PASSWORD)
+		VALUES(#{name},#{accountNum},SYSDATE,#{balance},#{password})
+	</insert>
+	
+	<delete id="delete" parameterType="String">
+		DELETE FROM ACCOUNT WHERE ACCOUNT_NUM=#{accountNum}
+	</delete>
+	
+<!-- 	<update id="update" parameterType="Account"> -->
+<!-- 		UPDATE ACCOUNT SET NAME=#{name},ACCOUNT_NUM=#{accountNum},CREATE_DATE=#{createDate}, -->
+<!-- 		BALANCE=#{balance},PASSWORD=#{password} WHERE ACCOUNT_NUM=#{} -->
+<!-- 	</update> -->
+	
+	<select id="select" parameterType="String" resultMap="accountMap">
+		SELECT * FROM ACCOUNT WHERE ACCOUNT_NUM=#{accountNum}
+	</select>
+	
+	<select id="selectList" resultMap="accountMap">
+		SELECT * FROM ACCOUNT
+	</select>
+	
+	<resultMap type="Account" id="accountMap">
+		<result column="name" property="name"/>
+		<result column="account_num" property="accountNum"/>
+		<result column="create_date" property="createDate"/>
+		<result column="balance" property="balance"/>
+		<result column="password" property="password"/>
+	</resultMap>
+	
+</mapper>

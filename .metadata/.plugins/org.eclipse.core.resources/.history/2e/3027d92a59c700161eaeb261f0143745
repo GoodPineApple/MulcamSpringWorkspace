@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.BookMapper">
+	<insert id="insertBook" parameterType="Book">
+		INSERT INTO BOOK(BOOK_NUM,TITLE,WRITER,PRICE,PUBLISHER) 
+		VALUES(#{bookNum},#{title},#{writer},#{price},#{publisher})
+	</insert>
+
+	<update id="updateBook" parameterType="Book">
+		UPDATE BOOK SET TITLE=#{title}, WRITER=#{writer}, PRICE=#{price} PUBLISHER=#{publisher} 
+		WHERE BOOK_NUM=#{bookNum}
+	</update>
+	
+	<delete id="deleteBook" parameterType="Book">
+		DELETE FROM BOOK WHERE BOOK_NUM=#{bookNum}
+	</delete>
+	
+	<select id="selectBook" parameterType="Integer" resultMap="BookMap">
+		SELECT * FROM BOOK WHERE BOOK_NUM=#{bookNum}
+	</select>
+	
+	<select id="selectBookList" resultMap="BookMap">
+		SELECT * FROM BOOK
+	</select>
+	
+	<resultMap type="Book" id="BookMap">
+		<result column="book_num" property="bookNum"/>
+		<result column="title" property="title"/>
+		<result column="writer" property="writer"/>
+		<result column="publisher" property="publisher"/>
+		<result column="price" property="price"/>
+	</resultMap>
+	
+</mapper>

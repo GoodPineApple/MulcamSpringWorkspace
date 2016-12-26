@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ktm">
+	<insert id="insertAccount" parameterType="Account">
+		INSERT INTO ACCOUNT(NAME,ACCOUNT_NUM,CREATE_DATE,BALANCE,PASSWORD) 
+		VALUES(#{name},#{account_num},now(),#{balance},#{password})
+	</insert>
+	
+	<update id="updateAccount" parameterType="Account">
+		UPDATE ACCOUNT SET name=#{name}, create_date=now(),
+		balance=#{balance}, password=#{password} where account_num=#{account_num}
+	</update>
+	
+	<delete id="deleteAccount" parameterType="String">
+		DELETE FROM ACCOUNT WHERE account_num=#{account_num}
+	</delete>
+	
+	<select id="selectAccount" parameterType="String" resultType="Account">
+		SELECT * FROM ACCOUNT WHERE account_num=#{account_num}
+	</select>
+	
+	<select id="selectAccountList" resultType="Account">
+		SELECT * FROM ACCOUNT
+	</select>
+	
+</mapper>

@@ -1,0 +1,26 @@
+package service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import repository.BoardDao;
+import vo.Article;
+
+@Component
+public class BoardService {
+	@Autowired
+	private BoardDao dao;
+	public void setBoardDao(BoardDao dao){
+		this.dao = dao;
+	}
+	
+	public int write(Article article){
+		int result = 0;
+		
+		article.setReadCount(0);
+		article.setWriteDate(new Date());
+		
+		
+		result = dao.insert(article)
+	}
+}

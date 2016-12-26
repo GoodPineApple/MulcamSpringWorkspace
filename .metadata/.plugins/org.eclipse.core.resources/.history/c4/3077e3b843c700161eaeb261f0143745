@@ -1,0 +1,25 @@
+package service;
+
+import repository.BookDao;
+import vo.Book;
+
+public class BookService {
+
+	private BookDao dao;
+	
+	public BookService(BookDao dao){
+		this.dao = dao;
+	}
+	
+	public BookService(){}
+	
+	public boolean insertBook(Book book){
+		if(dao.insertBook(book)>0){
+			return true;
+		} else{
+			return false;
+		}
+	}
+	
+	
+}

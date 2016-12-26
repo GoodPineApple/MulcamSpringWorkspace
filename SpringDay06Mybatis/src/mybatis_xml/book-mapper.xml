@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ktm">
+<!-- SQL 명령어 작성 파일 -->
+	<insert id="insertBook" parameterType="Book">
+		INSERT INTO BOOK(TITLE,WRITER,PUBLISHER,PRICE)
+		VALUES(#{title},#{writer},#{publisher},#{price})
+	</insert>
+		
+	<select id="selectBook" parameterType="Integer" resultType="Book">
+		SELECT * FROM BOOK WHERE BOOK_NUM=#{book_num}
+	</select>
+
+	<select id="selectBookList" resultType="Book">
+		SELECT * FROM BOOK
+	</select>
+
+<!-- 	<update id=""></update> -->
+	
+<!-- 	<delete id=""></delete> -->
+</mapper>

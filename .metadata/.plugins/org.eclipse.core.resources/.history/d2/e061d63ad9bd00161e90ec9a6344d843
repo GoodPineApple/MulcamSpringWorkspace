@@ -1,0 +1,56 @@
+package bankAccount;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import bankAccount.vo.AccountVO;
+
+@Component("service")
+public class AccountService {
+	@Autowired
+	private AccountDao dao;
+	
+	public AccountService(){}
+	
+	public AccountService(AccountDao dao){
+		this.dao = dao;
+	}
+	
+	public int createAccount(String name, int deposit){
+		AccountVO account = new AccountVO();
+		account.setName(name);
+		account.setDeposit(deposit);
+		String accountNum = "9301-21-";
+		boolean isDuplicated = true;
+		while(isDuplicated){
+			accountNum = "9301-21-";
+			int randomNum = (int) Math.random()*1000 + 1;
+			if(randomNum<10){
+				accountNum += "000" + randomNum;
+			} else if(randomNum<100){
+				accountNum += "00" + randomNum;
+			} else if(randomNum<1000){
+				accountNum += "0" + randomNum;
+			} else {
+				accountNum += randomNum;
+			}
+			AccountVO check = new AccountVO();
+			try{
+				check = dao.select(accountNum);
+			} catch(Exception e) {
+				check = null;
+			}
+			if(check==null) {
+				isDuplicated = false;
+			}
+		}
+		account.setAccountNum(accountNum);
+		System.out.println("insert문 진입전 객체 상황 :"+account);
+		return dao.insert(account);
+	}
+	
+	public AccountVO firstCreate(){
+		AccountVO account = dao.selectbyRecentDate();
+		return account;
+	}
+}
