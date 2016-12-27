@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var a = "how bookmark";
+// 		console.log(a);
+		chrome.bookmarks.create({'parentId': bookmarkBar.id,
+            'title': 'Extension bookmarks'},
+           function(newFolder) {
+		console.log("added folder: " + newFolder.title);
+		});
+		
+		chrome.bookmarks.create({'parentId': extensionsFolderId,
+            'title': 'Extensions doc',
+            'url': 'http://code.google.com/chrome/extensions'});
+	})
+
+</script>
+</head>
+<body>
+북마크 Test
+
+
+</body>
+</html>

@@ -14,6 +14,9 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="BookmarkTest"/>
+			<item value="SpringDay17File"/>
+			<item value="SpringDay17_File"/>
 			<item value="SpringDay14_Board"/>
 			<item value="SpringDay14MVC"/>
 			<item value="SpringDay13_MVC_tm"/>
@@ -26,13 +29,13 @@
 			<item value="SpringDay08Oracle"/>
 			<item value="SpringDay08DB_tm"/>
 			<item value="SpringDay08mybatis"/>
-			<item value="SpringDay07Mybatis_tm"/>
-			<item value="SpringDay07Mybatis2"/>
-			<item value="SpringDay06Mybatis_tm"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="BookmarkTest"/>
+			<item value="SpringDay17File"/>
+			<item value="SpringDay17_File"/>
 			<item value="SpringDay14_Board"/>
 			<item value="SpringDay14MVC"/>
 			<item value="SpringDay13_MVC_tm"/>
@@ -45,9 +48,6 @@
 			<item value="SpringDay08Oracle"/>
 			<item value="SpringDay08DB_tm"/>
 			<item value="SpringDay08mybatis"/>
-			<item value="SpringDay07Mybatis_tm"/>
-			<item value="SpringDay07Mybatis2"/>
-			<item value="SpringDay06Mybatis_tm"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
