@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.BoardMapper">
+	<insert id="insertArticle" parameterType="Article">
+		INSERT INTO BOARD(ARTICLE_NUM,TITLE,CONTENT,READ_COUNT,WRITE_DATE,WRITER,FAMILY,PARENT,DEPTH)
+		VALUES (BOARD_SEQ.nextval,#{title},#{content},0,sysdate,#{writer},BOARD_SEQ.currval,BOARD_SEQ.currval,0)
+	</insert>
+	
+	<insert id="insertReply" parameterType="Article">
+		INSERT INTO BOARD(ARTICLE_NUM,TITLE,CONTENT,READ_COUNT,WRITE_DATE,WRITER,FAMILY,PARENT,DEPTH)
+		VALUES (BOARD_SEQ.nextval,#{title},#{content},0,sysdate,#{writer},#{family},#{parent},#{depth})
+	</insert>
+	<insert id="update" parameterType="Article">
+		UPDATE BOARD SET TITLE = #{title},CONTENT = #{content},WRITE_DATE = sysdate
+		WHERE ARTICLE_NUM = #{articleNum}
+	</insert>
+	
+	<select id="totalCount" resultType="Integer">
+		SELECT COUNT(*)
+		FROM BOARD
+	</select>
+	
+<!-- 	<select id="selectList" parameterType="map" resultMap="Article"> -->
+<!-- 		SELECT * -->
+<!-- 		FROM BOARD -->
+<!-- 	</select> -->
+	
+	<select id="selectList" parameterType="map" resultMap="Article">
+		SELECT *
+        FROM (SELECT ROWNUM R, A.* FROM(
+        SELECT * FROM BOARD 
+        ORDER BY family DESC, depth ASC) A)
+        WHERE R BETWEEN #{startRow} AND #{endRow} 
+	</select>
+	
+	<delete id="delete" parameterType="Integer">
+		DELETE FROM BOARD
+		WHERE ARTICLE_NUM=#{articleNum}
+	</delete>
+	
+	<update id="updateReadCount" parameterType="Integer">
+	UPDATE BOARD SET READ_COUNT=READ_COUNT+1
+	WHERE ARTICLE_NUM=#{articleNum}
+	</update>
+	
+	<select id="select" parameterType="Integer" 
+								resultMap="Article">
+	SELECT * FROM BOARD WHERE ARTICLE_NUM=#{articleNum}
+	</select>
+	
+	<resultMap type="Article" id="Article">
+		<result column="article_num" property="articleNum"/>
+		<result column="write_date" property="writeDate"/>
+		<result column="read_count" property="read_count"/>
+		<result column="writer" property="writer"/>
+		<result column="title" property="title"/>
+		<result column="content" property="content"/>
+		<result column="family" property="family"/>
+		<result column="parent" property="parent"/>
+		<result column="depth" property="depth"/>
+	</resultMap>
+</mapper>
