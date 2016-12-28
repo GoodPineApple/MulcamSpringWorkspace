@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<table>
+	<table border="2">
 		<tr>
 			<th>파일번호</th>
 			<th>파일이름</th>
@@ -24,7 +24,8 @@
 				<c:forEach items="${fileList}" var="f">
 					<tr>
 						<td>${f.fileNum}</td>
-						<td>${f.originalName}</td>
+						<td><a href="downloadFile.do?fileNum=${f.fileNum}">
+								${f.originalName}</a></td>
 						<td>${f.savedPath}</td>
 					</tr>					
 				</c:forEach>

@@ -1,4 +1,5 @@
 /controllers/
-/service/
 /mapper/
 /repository/
+/service/
+/vo/

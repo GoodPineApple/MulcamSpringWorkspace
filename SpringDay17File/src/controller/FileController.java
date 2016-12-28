@@ -132,8 +132,8 @@ public class FileController {
 	}
 	
 	// 업로드된 파일이 현재 프로젝트 내부 폴더에 저장되게 하고 싶으면 파일 저장경로를 아래와 같이 하면됨
-	public ModelAndView uploadMovie(HttpServletRequest req, Movie movie){
-		String savePath = req.getServletContext().getRealPath("img");
-		return null;
-	}
+//	public ModelAndView uploadMovie(HttpServletRequest req, Movie movie){
+//		String savePath = req.getServletContext().getRealPath("img");
+//		return null;
+//	}
 }

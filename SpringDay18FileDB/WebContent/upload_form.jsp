@@ -22,7 +22,7 @@
 <body>
 	<button>파일추가</button><br>
 	<hr>	
-	<form action="uploadFile.do" method="post" enctype="multipart/form-data">
+	<form action="upload.do" method="post" enctype="multipart/form-data">
 		첨부파일 : <input type="file" name="fileList[0]"><br>
 		<input type="submit" value="업로드">
 	</form>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SpringDay13_MVC_tm">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <property name="context-root" value="SpringDay13_MVC_tm"/>
-        <property name="java-output-path" value="/SpringDay13_MVC_tm/build/classes"/>
-    </wb-module>
-</project-modules>
