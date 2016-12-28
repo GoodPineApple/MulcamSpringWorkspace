@@ -5,7 +5,45 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2016-12-23T07:56:00Z</updated>
+  <updated>2016-12-28T01:10:11Z</updated>
+  <entry>
+    <title>This Year in Spring - 2017 edition</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/12/28/this-year-in-spring-2017-edition" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2016-12-28:2754</id>
+    <updated>2016-12-28T01:10:11Z</updated>
+    <content type="html">&lt;p&gt;Welcome to a very special &lt;em&gt;This Week in Spring&lt;/em&gt;! Every year we wrap up with a recap of highlights from the year. This year&amp;rsquo;s no different! It&amp;rsquo;s been a heckuva year, and the Pivotal Spring and Cloud Foundry teams seem to deliver bigger and better tech every passing day. If you&amp;rsquo;ve been following &lt;em&gt;This Week in Spring&lt;/em&gt; then you&amp;rsquo;ll no doubt be aware of the changes! It&amp;rsquo;s hard to keep up, even for me, with the dizzying pace of releases! &lt;/p&gt;
+&lt;p&gt;So, here are the top five things I&amp;rsquo;d encourage people to review from 2016:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt;&lt;em&gt;Spring Boot&lt;/em&gt;: this year saw the release of Spring Boot 1.4 which in turn contains support for Spring Framework 4.3, Hibernate 5, Couchbase, Neo4J, and a slew of other niceties as &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.4-Release-Notes"&gt;discussed in the changelog&lt;/a&gt;. This year, in Pivotal Cloud Foundry 1.9, Spring Boot enjoys even greater integration with the platform, with deep support for Spring Boot Actuators, among many other things being surfaces in the Apps Manager console. Also, the downloads for Spring Boot are through the roof, going from 2.4 million a month in November 2015 to 10.2 million a month in 2016! Spring Boot is the new sensation that&amp;rsquo;s sweeping the nation and you can join in the fun and get started with the &lt;a href="http://start.spring.io"&gt;Spring Initializr&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;&lt;em&gt;Spring Cloud&lt;/em&gt;: This year saw the second (Spring Cloud Brixton) &lt;em&gt;and&lt;/em&gt; third (Spring Cloud Camden) major releases of Spring Cloud, after Spring Cloud Angel, debut &lt;em&gt;packed&lt;/em&gt; with new features! This year saw the introduction of support for consumer driven contract-based testing, distributed tracing, stream processing support, Apache Zookeeper support and much more. Spring Cloud enjoys deep integration with Pivotal Cloud Foundry and, as it builds on Spring Boot, is readily consumable from the &lt;a href="http://start.spring.io"&gt;Spring Initializr&lt;/a&gt;. If you&amp;rsquo;re building distributed systems, then you will find few approaches that are more consistent and comprehensive than Spring Cloud! &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;&lt;em&gt;Spring Cloud Data Flow&lt;/em&gt;: This year saw the release of the &lt;em&gt;bootiful&lt;/em&gt; Spring Cloud Data Flow 1.0. Spring Cloud Data Flow is the Spring Boot-centric re-imagining of Spring XD. It provides all the same support but in a fashion that is consistent with Sprnig Boot norms. It&amp;rsquo;s now as simple as &lt;code&gt;@EnableDataFlowServer&lt;/code&gt; to get a new Spring Cloud Data Flow server running! You can deploy Spring Cloud Data Flow on Cloud Foundry, Mesos, YARN and Kubernetes with no problems. It even enjoys deep support in our distribution of Cloud Foundry, Pivotal Cloud Foundry 1.9. Spring Cloud Data Flow supports batch data processing, ingest and analytics and stream processing workloads and it supports orchestratino of those workloads across a cluster. As usual, you can get started with Spring Cloud Data Flow &lt;a href="http://start.spring.io"&gt;from the Spring Initialzr&lt;/a&gt;. &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;&lt;em&gt;Spring One Platform&lt;/em&gt;: this year was the first year of our largest-ever Pivotal event, SpringOne Platform, where thousands of delegates converged in Las Vegas for an event that captured the excitement around Pivotal&amp;rsquo;s end-to-end application and platform-centric push. If you&amp;rsquo;re interested in agile, big data, microservices, devops and continuous delivery, then there is no better event for you than Spring One Platform. Next year figures to be even bigger and better, and we&amp;rsquo;ll be holding it &lt;a href="https://springoneplatform.io/"&gt;the 2017 edition at the Moscone center in San Francisco&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;&lt;em&gt;Pivotal and Cloud Foundry&lt;/em&gt;: This year saw the release of PCFDev, our developer-laptop-centric distribution of Cloud Foundry. Spring Cloud Services (which provides service brokers and integrations for various Spring Cloud bits of middleware including the Spring Cloud Netflix Eureka-registry, the Spring Cloud Config Server, and the Spring Cloud Netflix Hystrix Dashboard) went 1.0. This year saw us announce and ship stable integrations of Cloud Foundry on top of Microsoft Azure and Google Compute Engine. This year saw the announcement of the Open Service Broker API, a standardization of the service broker mechanism from Cloud Foundry itself; this collaborative project with Fujitsu, Google, IBM, Pivotal, Red Hat and SAP enables developers, ISVs and SaaS vendors to deliver services to applications running within cloud-native offerings ? including Cloud Foundry, OpenShift and Kubernetes ? in the most straightforward, effective way possible. We also announced support for Route Services, which are extension planes that can &lt;a href="https://www.cloudfoundry.org/route-services/"&gt;programatically handle routing in the platform&lt;/a&gt;. This year we also released Pivotal Cloud Foundry 1.9 which deeply tightens the &lt;a href="https://www.cloudfoundry.org/pivotal-cloud-foundry-1-9-sets-the-bar-on-massive-scale/"&gt;integration between Spring Boot-based applications and Cloud Foundry&lt;/a&gt; with awarenes of the Spring Boot Actuator health endpoint, metrics, and so much more. It also introduces smarter auto-scalers in the platform itself, now supporting latency as well as CPU. It also demonstrated 250,000 containers concurrently. This year also saw the release of multi-cloud support for Microsoft Azure and Google Cloud, even seeing Google join the Cloud Foundry foundation! This year &lt;em&gt;also&lt;/em&gt; saw support for Spring Cloud Data Flow on Pivotal Cloud Foundry, too! SO much good stuff! &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anyway! We also have a lot to get to from the community, as well, so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Data lead Oliver Gierke has just &lt;a href="https://spring.io/blog/2016/12/23/spring-data-release-train-ingalls-rc1-released"&gt;announced Spring Data Release Train Ingallas RC1&lt;/a&gt;. This release moves to a Spring 4.3.5 baseline, supports exposing domain events as Spring application context events from aggregate roots, supports the functional library Javaslang&amp;rsquo;s &lt;code&gt;Option&lt;/code&gt; type, adds Spring Data LDAP support, supports CORS headers in Spring Data REST and so much more. Get the bits and kick the tires. This release train is named for &lt;a href="https://en.wikipedia.org/wiki/Daniel_Henry_Holmes_Ingalls_Jr."&gt;Dan Ingalls&lt;/a&gt;, who I had the privileged of &lt;a href="https://twitter.com/starbuxman/status/804810969549520896"&gt;meeting earlier this month&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Spring Boot co-founder and co-lead Phil Webb has just &lt;a href="https://spring.io/blog/2016/12/23/spring-boot-1-4-3-available-now"&gt;announced Spring Boot 1.4.3&lt;/a&gt; with over 70 fixes, improvements and so much more!&lt;/li&gt;
+  &lt;li&gt;Spring Security lead Rob Winch has just announced a &lt;a href="https://spring.io/blog/2016/12/22/cve-2016-9879-spring-security-3-2-10-4-1-4-4-2-1-released"&gt;CVE for Spring Security 3.2.1, 4.1.4, and 4.2.1 with according fix&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Security lead Rob Winch just announced &lt;a href="https://spring.io/blog/2016/12/22/spring-ldap-2-2-1-2-3-rc1-released"&gt;Spring LDAP 2.2.1 and 2.3&lt;/a&gt;. This release includes a lot of new features and saw the move of Spring LDAP to the Spring Data umbrella project.&lt;/li&gt;
+  &lt;li&gt;Spring Tool Suite lead Martin Lipper just announced &lt;a href="https://spring.io/blog/2016/12/22/spring-tool-suite-3-8-3-released"&gt;Spring Tool Suite 3.8.3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring ninja Stephane Nicoll just &lt;a href="https://spring.io/blog/2016/12/21/spring-framework-4-3-5-4-2-9-and-3-2-18-available-now"&gt;announced Spring Framework 4.3.5, 4.2.9, and 3.2.18&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;speaking of Spring Tool Suite, last week I did another Spring Tip, this one &lt;a href="https://spring.io/blog/2016/12/21/spring-tips-spring-tool-suite"&gt;looking at the Spring Tool Suite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;nice! Google has announced &lt;a href="https://cloudplatform.googleblog.com/2016/12/Stackdriver-Trace-Zipkin-distributed-tracing-and-performance-analysis-for-everyone.html?m=1"&gt;support for Zipkin headers on Stackdriver&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://queue.acm.org/detail.cfm?id=3028689"&gt;Are you load-balancing wrong&lt;/a&gt;? Interesting read from the ACM!&lt;/li&gt;
+  &lt;li&gt;I loved this talk from SpringOne Platform on &lt;a href="https://www.infoq.com/presentations/monolith-spring-microservices"&gt;moving from a monolithic architecture to microservices with Spring Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SO, on that note, on behalf of Pivotal and the Spring teams, let me wish you the happiest and safest of new years! Here&amp;rsquo;s to 2017!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data Release Train Ingalls RC1 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2016/12/23/spring-data-release-train-ingalls-rc1-released" />
@@ -643,18 +681,5 @@ Receiver.create(receiverOptions)                                        &lt;b cl
 &lt;p&gt;For more information and additional resources, see &lt;a href="https://repo.spring.io/milestone/io/projectreactor/kafka/reactor-kafka-docs/1.0.0.M1/reactor-kafka-docs-1.0.0.M1.zip!/docs/index.html"&gt;Reactor Kafka Reference Guide&lt;/a&gt; and &lt;a href="https://repo.spring.io/milestone/io/projectreactor/kafka/reactor-kafka/1.0.0.M1/reactor-kafka-1.0.0.M1-javadoc.jar!/index.html"&gt;Javadocs&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Demystifying Bootiful Magic</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/12/14/spring-tips-demystifying-bootiful-magic" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2016-12-13:2730</id>
-    <updated>2016-12-14T01:51:00Z</updated>
-    <content type="html">&lt;p&gt;Speaker: &lt;a href="https://www.twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we&amp;rsquo;ll pull back the curtain to reveal what&amp;rsquo;s happening in Spring Boot&amp;rsquo;s auto-configuration &amp;ldquo;magic&amp;rdquo; to make debugging approachable.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Sw7I70vjN0E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>

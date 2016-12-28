@@ -1,0 +1,7 @@
+package repository.mapper;
+
+public interface FileMapper {
+	public int ();
+	public int ();
+	public int ();
+}

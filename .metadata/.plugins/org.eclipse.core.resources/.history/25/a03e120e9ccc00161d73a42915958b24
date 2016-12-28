@@ -1,0 +1,9 @@
+package vo;
+
+public class MyFile {
+	private int fileNum;
+	private String originalName;
+	private String savedPath;
+	
+	
+}

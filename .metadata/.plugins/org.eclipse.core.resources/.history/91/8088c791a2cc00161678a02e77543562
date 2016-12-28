@@ -1,0 +1,16 @@
+package repository;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FileDao {
+
+	private SqlSessionTemplate session;
+	
+	public void setSession(SqlSessionTemplate session){
+		this.session = session;
+	}
+	
+	
+}

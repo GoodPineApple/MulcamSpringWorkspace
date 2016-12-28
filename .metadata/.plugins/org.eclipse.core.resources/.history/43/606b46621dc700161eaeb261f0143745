@@ -1,7 +1,0 @@
-package dao;
-
-import org.mybatis.spring.SqlSessionTemplate;
-
-public class MemberDao {
-	private SqlSessionTemplate session;
-}
