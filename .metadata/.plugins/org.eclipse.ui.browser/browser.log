@@ -1,0 +1,6 @@
+
+12월 29, 2016 16:35:18.62 NEW SESSION
+12월 29, 2016 16:35:18.62 [3492:4520:1229/163518:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+12월 29, 2016 17:08:58.64 [4220:2860:1229/170858:ERROR:render_media_log.cc(25)] MediaEvent: PIPELINE_ERROR audio renderer: output device reported an error
+12월 29, 2016 17:09:00.81 [4220:2860:1229/170900:ERROR:render_media_log.cc(25)] MediaEvent: PIPELINE_ERROR audio renderer: output device reported an error
+12월 29, 2016 17:24:05.96 Vector smash protection is enabled.
