@@ -12,6 +12,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\student\Desktop\workspace_spring\SpringDay19Ajax2"/>
+			<item value="C:\Users\student\Desktop\workspace_spring\Lesson06"/>
 			<item value="C:\Users\student\Desktop\workspace_spring\SpringDay17File"/>
 			<item value="C:\Users\student\Desktop\workspace_spring\SpringDay15Test"/>
 			<item value="C:\Users\student\Desktop\workspace_spring\SpringDay14Board"/>
@@ -32,14 +34,34 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="91" key="DIALOG_X_ORIGIN"/>
 		<item value="313" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.springsource.ide.eclipse.commons.quicksearch.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item value="true" key="CASE_SENSITIVE"/>
+		<item value="line" key="LAST_QUERY"/>
+		<list key="SASH_WEIGHTS">
+			<item value="833"/>
+			<item value="166"/>
+		</list>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="118"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="348" key="DIALOG_X_ORIGIN"/>
+			<item value="167" key="DIALOG_Y_ORIGIN"/>
+		</section>
 	</section>
 	<section name="SaveAsDialogSettings">
 		<item value="525" key="DIALOG_WIDTH"/>

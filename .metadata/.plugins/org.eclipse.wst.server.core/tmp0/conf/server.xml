@@ -95,9 +95,9 @@
 				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
 				
-				<Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay14MVC" path="/SpringDay14MVC" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay14MVC"/>
-				<Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay18FileDB" path="/SpringDay18FileDB" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay18FileDB"/>
-			</Host>
+				
+				
+			<Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay19Ajax" path="/SpringDay19Ajax" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay19Ajax"/><Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay17File" path="/SpringDay17File" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay17File"/></Host>
 		</Engine>
 	</Service>
 </Server>
