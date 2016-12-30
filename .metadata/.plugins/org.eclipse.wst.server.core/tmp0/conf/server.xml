@@ -97,7 +97,7 @@
 				
 				
 				
-			<Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay17File" path="/SpringDay17File" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay17File"/></Host>
+			<Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\student\Desktop\workspace_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringDay20Interceptor" path="/test20" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay20Interceptor"/></Host>
 		</Engine>
 	</Service>
 </Server>

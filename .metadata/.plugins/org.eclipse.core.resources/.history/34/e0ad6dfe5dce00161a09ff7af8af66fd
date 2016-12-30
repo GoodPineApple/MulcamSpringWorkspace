@@ -1,0 +1,10 @@
+package com.pineapple.domain.model.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Hello {
+	@Id
+	
+}

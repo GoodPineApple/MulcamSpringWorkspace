@@ -97,7 +97,7 @@
 				
 				
 				
-			<Context docBase="SpringDay17File" path="/SpringDay17File" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay17File"/></Host>
+			<Context docBase="SpringDay20Interceptor" path="/test20" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay20Interceptor"/></Host>
 		</Engine>
 	</Service>
 </Server>

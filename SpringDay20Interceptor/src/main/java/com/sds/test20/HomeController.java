@@ -64,6 +64,10 @@ public class HomeController {
 //			return null;
 //		}
 //	}
+	@RequestMapping("/hello.do")
+	public String hello(){
+		return "hi";
+	}
 }
 
 
