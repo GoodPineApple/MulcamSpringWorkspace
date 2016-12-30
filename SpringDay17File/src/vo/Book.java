@@ -3,10 +3,9 @@ package vo;
 import org.springframework.web.multipart.MultipartFile;
 
 public class Book {
-	
 	private String title;
 	private MultipartFile myFile;
-	
+//////////////////////////////////////////////////////	
 	public String getTitle() {
 		return title;
 	}
@@ -19,6 +18,4 @@ public class Book {
 	public void setMyFile(MultipartFile myFile) {
 		this.myFile = myFile;
 	}
-	
-	
 }
