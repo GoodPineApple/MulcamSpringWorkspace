@@ -31,6 +31,7 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+		<item value="false" key="configure_problem_severity_dialog_id"/>
 		<item value="false" key="EmptyDefaultAssistCategory"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
