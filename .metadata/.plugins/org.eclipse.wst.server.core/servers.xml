@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="53">
-    <list key="modules" value0="SpringDay13_MVC_Oracle::org.eclipse.jst.jee.server:SpringDay13_MVC_Oracle::jst.web::3.0" value1="SpringDay14_Board::org.eclipse.jst.jee.server:SpringDay14_Board::jst.web::3.0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="57">
+    <list key="modules" value0="SpringDay14MVC::org.eclipse.jst.jee.server:SpringDay14MVC::jst.web::3.0"/>
   </server>
   <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost (2)" name="Tomcat v7.0 Server at localhost (2)" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
     <list key="modules" value0="SpringDay19Ajax::org.eclipse.jst.jee.server:SpringDay19Ajax::jst.web::2.5"/>

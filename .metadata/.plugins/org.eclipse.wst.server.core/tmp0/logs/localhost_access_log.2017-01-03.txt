@@ -1,0 +1,11 @@
+127.0.0.1 - - [03/Jan/2017:00:04:16 +0900] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:16 +0900] "GET /SpringDay14MVC/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:17 +0900] "GET /SpringDay14MVC/main.do HTTP/1.1" 200 341
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:18 +0900] "GET /SpringDay14MVC/joinForm.do HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:24 +0900] "POST /SpringDay14MVC/join.do HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:26 +0900] "GET /SpringDay14MVC/main.do HTTP/1.1" 200 341
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:27 +0900] "GET /SpringDay14MVC/loginForm.do HTTP/1.1" 200 435
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:28 +0900] "POST /SpringDay14MVC/login.do HTTP/1.1" 200 394
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:31 +0900] "GET /SpringDay14MVC/loginStatus.do HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:33 +0900] "GET /SpringDay14MVC/logout.do HTTP/1.1" 200 370
+0:0:0:0:0:0:0:1 - - [03/Jan/2017:00:04:34 +0900] "GET /SpringDay14MVC/loginStatus.do HTTP/1.1" 200 347
