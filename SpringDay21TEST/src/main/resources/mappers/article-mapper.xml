@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+ 
+<mapper namespace="com.pineapple.repository.ArticleMapper">
+	<insert id="articleInsert" parameterType="com.pineapple.vo.ArticleVO">
+		INSERT INTO ARTICLE(TITLE,WRITER,CONTENT,READ_COUNT,WRITE_DATE,GP,SP)
+		VALUES(#{title},#{writer},#{content},0,now(),1,1)
+	</insert>
+	
+	<update id="hitPlus" parameterType="Integer">
+		UPDATE SET READ_COUNT = READ_COUNT+1 WHERE ARTICLE_NUM=#{articleNum}
+	</update>
+	
+	<select id="articleSelect" parameterType="Integer" resultMap="articleMap">
+		SELECT * FROM ARTICLE WHERE ARTICLE_NUM=#{articleNum}
+	</select>
+	
+	<select id="articleSelectList" resultMap="articleMap">
+		SELECT * FROM ARTICLE ORDER BY ARTICLE_NUM DESC
+	</select>
+	
+	<resultMap type="com.pineapple.vo.ArticleVO" id="articleMap">
+		<result column="article_num" property="articleNum"/>
+		<result column="title" property="title"/>
+		<result column="writer" property="writer"/>
+		<result column="content" property="content"/>
+		<result column="read_count" property="readCount"/>
+		<result column="write_date" property="writeDate"/>
+		<result column="pg" property="group"/>
+		<result column="sp" property="step"/>
+	</resultMap>
+
+</mapper>
