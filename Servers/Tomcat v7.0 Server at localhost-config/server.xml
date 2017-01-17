@@ -45,7 +45,7 @@
 			and responses are returned. Documentation at : Java HTTP Connector: /docs/config/http.html 
 			(blocking & non-blocking) Java AJP Connector: /docs/config/ajp.html APR (HTTP/AJP) 
 			Connector: /docs/apr.html Define a non-SSL HTTP/1.1 Connector on port 8080 -->
-		<Connector connectionTimeout="20000" port="8089" protocol="HTTP/1.1" redirectPort="8443"/>
+		<Connector connectionTimeout="20000" port="8082" protocol="HTTP/1.1" redirectPort="8443"/>
 		<!-- A "Connector" using the shared thread pool -->
 		<!-- <Connector executor="tomcatThreadPool" port="8080" protocol="HTTP/1.1" 
 			connectionTimeout="20000" redirectPort="8443" /> -->
@@ -97,7 +97,7 @@
 				
 				
 				
-			<Context docBase="SpringDay14MVC" path="/SpringDay14MVC" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay14MVC"/></Host>
+			<Context docBase="SpringDay17File" path="/SpringDay17File" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay17File"/><Context docBase="SpringDay19Ajax" path="/SpringDay19Ajax" reloadable="true" source="org.eclipse.jst.jee.server:SpringDay19Ajax"/></Host>
 		</Engine>
 	</Service>
 </Server>

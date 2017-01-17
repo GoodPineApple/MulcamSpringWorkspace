@@ -5,8 +5,10 @@
 <title>index.jsp</title>
 </head>
 <body>
-<%
-response.sendRedirect("fileList.do");
-%>
+<%-- <% --%>
+// response.sendRedirect("fileList.do");
+<%-- %> --%>
+
+test
 </body>
 </html>
