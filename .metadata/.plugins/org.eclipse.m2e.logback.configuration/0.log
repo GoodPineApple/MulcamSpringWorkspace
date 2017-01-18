@@ -17294,3 +17294,111 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2017-01-17 16:49:35,194 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay18FileBoard\src\main\resources
 2017-01-17 16:49:35,199 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-01-17 16:49:35,202 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay18FileBoard\src\test\resources
+2017-01-17 19:45:38,326 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:38,335 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\BookmarkTest\src\main\resources
+2017-01-17 19:45:38,337 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:38,338 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\BookmarkTest\src\test\resources
+2017-01-17 19:45:39,731 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:39,731 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay02\src\main\resources
+2017-01-17 19:45:39,733 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:39,733 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay02\src\test\resources
+2017-01-17 19:45:40,314 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,316 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay03DB\src\main\resources
+2017-01-17 19:45:40,317 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,318 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay03DB\src\test\resources
+2017-01-17 19:45:40,448 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,448 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04DB\src\main\resources
+2017-01-17 19:45:40,450 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,450 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04DB\src\test\resources
+2017-01-17 19:45:40,532 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,533 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04DB_tm\src\main\resources
+2017-01-17 19:45:40,535 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:40,536 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04DB_tm\src\test\resources
+2017-01-17 19:45:42,164 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,165 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04_practice\src\main\resources
+2017-01-17 19:45:42,166 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,168 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay04_practice\src\test\resources
+2017-01-17 19:45:42,286 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,287 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay05DB\src\main\resources
+2017-01-17 19:45:42,289 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,289 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay05DB\src\test\resources
+2017-01-17 19:45:42,427 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,428 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay06Mybatis\src\main\resources
+2017-01-17 19:45:42,430 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,431 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay06Mybatis\src\test\resources
+2017-01-17 19:45:42,488 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,489 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay06Mybatis_tm\src\main\resources
+2017-01-17 19:45:42,491 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,492 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay06Mybatis_tm\src\test\resources
+2017-01-17 19:45:42,584 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,584 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis\src\main\resources
+2017-01-17 19:45:42,585 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,586 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis\src\test\resources
+2017-01-17 19:45:42,636 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,636 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis2\src\main\resources
+2017-01-17 19:45:42,637 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,638 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis2\src\test\resources
+2017-01-17 19:45:42,685 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,686 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis_tm\src\main\resources
+2017-01-17 19:45:42,687 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,687 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay07Mybatis_tm\src\test\resources
+2017-01-17 19:45:42,841 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,842 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay08DB\src\main\resources
+2017-01-17 19:45:42,843 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:42,844 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay08DB\src\test\resources
+2017-01-17 19:45:43,079 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,080 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay08Oracle\src\main\resources
+2017-01-17 19:45:43,081 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,082 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay08Oracle\src\test\resources
+2017-01-17 19:45:43,273 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,276 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay09Article_Oracle\src\main\resources
+2017-01-17 19:45:43,277 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,278 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay09Article_Oracle\src\test\resources
+2017-01-17 19:45:43,431 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,432 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay10AOP\src\main\resources
+2017-01-17 19:45:43,435 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,436 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay10AOP\src\test\resources
+2017-01-17 19:45:43,556 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,557 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay11AOP\src\main\resources
+2017-01-17 19:45:43,558 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,559 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay11AOP\src\test\resources
+2017-01-17 19:45:43,823 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,825 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay12_MVC\src\main\resources
+2017-01-17 19:45:43,828 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:43,831 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay12_MVC\src\test\resources
+2017-01-17 19:45:45,534 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:45,535 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay12_MVC2\src\main\resources
+2017-01-17 19:45:45,537 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:45,538 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay12_MVC2\src\test\resources
+2017-01-17 19:45:45,752 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:45,754 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay13_MVC\src\main\resources
+2017-01-17 19:45:45,755 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:45,757 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay13_MVC\src\test\resources
+2017-01-17 19:45:46,029 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,031 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay13_MVC_Oracle\src\main\resources
+2017-01-17 19:45:46,034 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,036 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay13_MVC_Oracle\src\test\resources
+2017-01-17 19:45:46,281 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,283 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay14MVC\src\main\resources
+2017-01-17 19:45:46,284 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,285 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay14MVC\src\test\resources
+2017-01-17 19:45:46,506 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,507 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay14_Board\src\main\resources
+2017-01-17 19:45:46,508 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,509 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay14_Board\src\test\resources
+2017-01-17 19:45:46,765 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,767 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay15Test\src\main\resources
+2017-01-17 19:45:46,768 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:46,769 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay15Test\src\test\resources
+2017-01-17 19:45:47,007 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:47,009 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay17File\src\main\resources
+2017-01-17 19:45:47,010 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:47,011 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay17File\src\test\resources
+2017-01-17 19:45:49,608 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:49,624 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay18FileBoard\src\main\resources
+2017-01-17 19:45:49,627 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-17 19:45:49,629 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay18FileBoard\src\test\resources
+2017-01-17 19:45:51,486 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-17 19:45:51,495 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-01-17 19:45:51,523 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-17 19:45:51,523 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\taemin\dev\java\mulcam\workspace_spring\SpringDay19Ajax\src\test\resources
